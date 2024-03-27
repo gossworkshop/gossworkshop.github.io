@@ -1,0 +1,70 @@
+/*** Google Web Fonts - START ***/
+
+/* quicksand-500 - latin-ext_latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../../webfonts/quicksand-v28-latin-ext_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../../webfonts/quicksand-v28-latin-ext_latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+}
+/* quicksand-700 - latin-ext_latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../../webfonts/quicksand-v28-latin-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../../webfonts/quicksand-v28-latin-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+}
+/* vt323-regular - latin-ext_latin */
+@font-face {
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../../webfonts/vt323-v17-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../../webfonts/vt323-v17-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+}
+
+body {
+    font-size: 110%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'VT323', sans-serif;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* Navbar Hacks */
+/* Current active */
+.navbar-nav > .active > a {
+    color: #0d6efd!important;
+    font-weight: bold;
+}
+.nav-link {
+    color: #000 !important;
+}
+.nav-item .text-muted{
+    color: #6c757d!important
+}
+
+/* On mouse over */
+.nav-item > a:hover {
+    color: #0d6efd!important;
+}
+
+/*** Google Web Fonts - END ***/
+
+body > .container {
+    padding: 80px 15px 0;
+}
